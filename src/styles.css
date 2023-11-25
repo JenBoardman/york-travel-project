@@ -16,6 +16,7 @@ section {
 .grid {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 64px;
 }
 
 header {
@@ -90,7 +91,6 @@ footer p {
   line-height: 1.5;
   letter-spacing: 0px;
   opacity: 0.5;
-  margin-right: 64px;
 }
 
 footer ul {
