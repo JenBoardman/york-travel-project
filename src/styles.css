@@ -52,6 +52,10 @@ img {
   aspect-ratio: 1/1;
 }
 
+.instagram-embed {
+  margin: 30px 0;
+}
+
 .card {
   background: #272435;
   margin: 30px 0;
