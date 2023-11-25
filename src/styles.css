@@ -6,6 +6,15 @@ body {
 section {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 100px 0;
+}
+
+img {
+  max-width: 500px;
+}
+
+.img-responsive {
+  max-width: 100%;
 }
 
 .container {
@@ -15,8 +24,15 @@ section {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr;
   grid-gap: 64px;
+}
+
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-3-columns-first-narrow {
+  grid-template-columns: 1fr 2fr 2fr;
 }
 
 header {
@@ -66,6 +82,41 @@ header a {
   margin-top: 32px;
 }
 
+main {
+  background-color: #12101d;
+}
+
+main h2 {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  text-align: left;
+  opacity: 0.3;
+  margin: 0;
+}
+
+main h3 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  margin: 0;
+}
+
+main p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+  opacity: 0.5;
+}
+
 footer {
   color: white;
   background-image: linear-gradient(
@@ -75,7 +126,6 @@ footer {
     url(../images/york2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px 0;
 }
 
 footer h4 {
@@ -121,5 +171,12 @@ footer a {
   }
   header h3 {
     font-size: 12px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
+  section {
+    padding: 30px;
   }
 }
